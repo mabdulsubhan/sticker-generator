@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1039C444068752CBE4BE8BC3 /* StickerResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D910F5A929889A68BCC66C15 /* StickerResultView.swift */; };
+		2934C762F3882356FF6BE84F /* ModelDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589CC35A76A6C0815037157C /* ModelDownloader.swift */; };
+		2D02C20B54C22351E2C8DC80 /* StickerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD14C28CD53D27FDFC5E288 /* StickerStyle.swift */; };
+		6499659ECC8170A16411854C /* StickerGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C59F3D3A1BE090803C1A9 /* StickerGeneratorView.swift */; };
+		7F483451A13B96050B7B87B3 /* PencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9D4CB724AB0A803D3BC9F5 /* PencilKit.framework */; };
+		8083BBCB84BB9CB19DE0306C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4966A21530FC885FC7ACB478 /* ContentView.swift */; };
+		B4A9A9D6448EEEA24BEDCF37 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A72E8C071680E3AE3B5DACC /* ImageProcessor.swift */; };
+		C51F73FF64F476301F8F18DA /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE95F31BEC07EB4BB5C0725F /* DrawingCanvasView.swift */; };
+		D8482E406964F16B55FDBA24 /* StickerGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C85A6C9E650B4B6B8D3ACB /* StickerGenerator.swift */; };
+		E5177CBD29C3E0B7F5F7CB1D /* SketchStickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C4D6E4959719D0766FC36B /* SketchStickerApp.swift */; };
+		EAA1006BFE9CD7037F335AD2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1C2519D2D7CF7D3155E1C4 /* Accelerate.framework */; };
+		F256AAB4BD24C845F60375E6 /* ModelSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FE77B2ABBA2B6F36795BE /* ModelSetupView.swift */; };
+		F4B3B06C9F28BD84AB5A72DC /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5479748EE8F60A959CF6837 /* CoreML.framework */; };
+		F8B0DE80736D3A803CC4754D /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = C63BD3CA95F98A111D687CB2 /* StableDiffusion */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22C4D6E4959719D0766FC36B /* SketchStickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchStickerApp.swift; sourceTree = "<group>"; };
+		2C9D4CB724AB0A803D3BC9F5 /* PencilKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PencilKit.framework; path = System/Library/Frameworks/PencilKit.framework; sourceTree = SDKROOT; };
+		376E951D950625B2140EDB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3A72E8C071680E3AE3B5DACC /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		4966A21530FC885FC7ACB478 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		589CC35A76A6C0815037157C /* ModelDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDownloader.swift; sourceTree = "<group>"; };
+		7FD14C28CD53D27FDFC5E288 /* StickerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerStyle.swift; sourceTree = "<group>"; };
+		B3C85A6C9E650B4B6B8D3ACB /* StickerGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerGenerator.swift; sourceTree = "<group>"; };
+		C29BCD13D7743E614166CF68 /* SketchSticker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SketchSticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C51C59F3D3A1BE090803C1A9 /* StickerGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerGeneratorView.swift; sourceTree = "<group>"; };
+		C91FE77B2ABBA2B6F36795BE /* ModelSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSetupView.swift; sourceTree = "<group>"; };
+		CF1C2519D2D7CF7D3155E1C4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D910F5A929889A68BCC66C15 /* StickerResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerResultView.swift; sourceTree = "<group>"; };
+		DE95F31BEC07EB4BB5C0725F /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		F5479748EE8F60A959CF6837 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F54CC20D1BDF1CA2A03304F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B0DE80736D3A803CC4754D /* StableDiffusion in Frameworks */,
+				7F483451A13B96050B7B87B3 /* PencilKit.framework in Frameworks */,
+				F4B3B06C9F28BD84AB5A72DC /* CoreML.framework in Frameworks */,
+				EAA1006BFE9CD7037F335AD2 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0749FB2D8DD22CE4B55DC357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29BCD13D7743E614166CF68 /* SketchSticker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BBF98C8E90D5B0225E8FF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE95F31BEC07EB4BB5C0725F /* DrawingCanvasView.swift */,
+				C91FE77B2ABBA2B6F36795BE /* ModelSetupView.swift */,
+				C51C59F3D3A1BE090803C1A9 /* StickerGeneratorView.swift */,
+				D910F5A929889A68BCC66C15 /* StickerResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		258B63CF4D1E29F729404DA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF1C2519D2D7CF7D3155E1C4 /* Accelerate.framework */,
+				F5479748EE8F60A959CF6837 /* CoreML.framework */,
+				2C9D4CB724AB0A803D3BC9F5 /* PencilKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39F83C2696DD8BEE971B238B = {
+			isa = PBXGroup;
+			children = (
+				87D3C802FCB8520C9AC1977D /* SketchSticker */,
+				258B63CF4D1E29F729404DA8 /* Frameworks */,
+				0749FB2D8DD22CE4B55DC357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87D3C802FCB8520C9AC1977D /* SketchSticker */ = {
+			isa = PBXGroup;
+			children = (
+				4966A21530FC885FC7ACB478 /* ContentView.swift */,
+				376E951D950625B2140EDB11 /* Info.plist */,
+				22C4D6E4959719D0766FC36B /* SketchStickerApp.swift */,
+				9936A07B0A5328FBA2CE1AFB /* Core */,
+				08BBF98C8E90D5B0225E8FF1 /* Views */,
+			);
+			path = SketchSticker;
+			sourceTree = "<group>";
+		};
+		9936A07B0A5328FBA2CE1AFB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3A72E8C071680E3AE3B5DACC /* ImageProcessor.swift */,
+				589CC35A76A6C0815037157C /* ModelDownloader.swift */,
+				B3C85A6C9E650B4B6B8D3ACB /* StickerGenerator.swift */,
+				7FD14C28CD53D27FDFC5E288 /* StickerStyle.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A155B77CD9ADCAEF2B6AD24 /* SketchSticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707829D6325FA25C36FC5FDD /* Build configuration list for PBXNativeTarget "SketchSticker" */;
+			buildPhases = (
+				10ECF78D0E663E5CFE8EE407 /* Sources */,
+				6F54CC20D1BDF1CA2A03304F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SketchSticker;
+			packageProductDependencies = (
+				C63BD3CA95F98A111D687CB2 /* StableDiffusion */,
+			);
+			productName = SketchSticker;
+			productReference = C29BCD13D7743E614166CF68 /* SketchSticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B83DDD88091DF766C827567B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = D6D7868F7D20F4B0DCE743FA /* Build configuration list for PBXProject "SketchSticker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 39F83C2696DD8BEE971B238B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				01146EC0B3075432D87A66F1 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0749FB2D8DD22CE4B55DC357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A155B77CD9ADCAEF2B6AD24 /* SketchSticker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10ECF78D0E663E5CFE8EE407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8083BBCB84BB9CB19DE0306C /* ContentView.swift in Sources */,
+				C51F73FF64F476301F8F18DA /* DrawingCanvasView.swift in Sources */,
+				B4A9A9D6448EEEA24BEDCF37 /* ImageProcessor.swift in Sources */,
+				2934C762F3882356FF6BE84F /* ModelDownloader.swift in Sources */,
+				F256AAB4BD24C845F60375E6 /* ModelSetupView.swift in Sources */,
+				E5177CBD29C3E0B7F5F7CB1D /* SketchStickerApp.swift in Sources */,
+				D8482E406964F16B55FDBA24 /* StickerGenerator.swift in Sources */,
+				6499659ECC8170A16411854C /* StickerGeneratorView.swift in Sources */,
+				1039C444068752CBE4BE8BC3 /* StickerResultView.swift in Sources */,
+				2D02C20B54C22351E2C8DC80 /* StickerStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FC5AD64522E0423458966BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90A4D669C08F45D8FEEBFC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D26635B26F1C3841617EE038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SketchSticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sketchsticker.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A7515813F4A11646FC2B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SketchSticker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sketchsticker.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707829D6325FA25C36FC5FDD /* Build configuration list for PBXNativeTarget "SketchSticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26635B26F1C3841617EE038 /* Debug */,
+				E9A7515813F4A11646FC2B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6D7868F7D20F4B0DCE743FA /* Build configuration list for PBXProject "SketchSticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FC5AD64522E0423458966BF /* Debug */,
+				90A4D669C08F45D8FEEBFC49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01146EC0B3075432D87A66F1 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/ml-stable-diffusion";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C63BD3CA95F98A111D687CB2 /* StableDiffusion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01146EC0B3075432D87A66F1 /* XCRemoteSwiftPackageReference "ml-stable-diffusion" */;
+			productName = StableDiffusion;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B83DDD88091DF766C827567B /* Project object */;
+}
