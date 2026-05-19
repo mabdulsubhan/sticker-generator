@@ -4,6 +4,13 @@ Draw something rough on your phone. Get a cute sticker back. No internet require
 
 ![iOS 17+](https://img.shields.io/badge/iOS-17%2B-black) ![Swift](https://img.shields.io/badge/Swift-6-orange) ![CoreML](https://img.shields.io/badge/CoreML-Stable%20Diffusion-purple)
 
+<p align="center">
+  <img src="Demo/First.png" width="23%">
+  <img src="Demo/Second.png" width="23%">
+  <img src="Demo/Third.png" width="23%">
+  <img src="Demo/Fourth.png" width="23%">
+</p>
+
 ---
 
 ## How it works
